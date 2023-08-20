@@ -4,6 +4,8 @@ module com.example.paint {
 
     requires org.controlsfx.controls;
     requires org.kordamp.ikonli.javafx;
+    requires java.desktop;
+    requires javafx.swing;
 
     opens com.example.paint to javafx.fxml;
     exports com.example.paint;
